@@ -1,0 +1,65 @@
+<html>
+<head>
+    <!--link rel="stylesheet" href="./index.css"-->
+    <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
+    <title>
+        mozilla devoloper
+    </title>
+    <script>
+        function checkLogin(){
+            if(document.form1.userName.value===''){
+                alert("请输入姓名！");
+                document.form1.userName.select();
+                document.form1.userName.focus();
+                return false
+            }
+            if(document.form1.pwd.value===''){
+                alert("密码不能为空！");
+                document.form1.pwd.select();
+                document.form1.pwd.focus();
+                return false
+            }
+            return true;
+
+        }
+
+    </script>
+    <style>
+        div{
+            background-color: blue;
+           
+            display: flex;
+            /*justify-content: center;*/
+            
+      
+        }
+        span{
+            margin:50px 50px;
+            width:120px;
+            height:50px;
+            padding:100px 50px 100px 200px;
+            background-color: lightblue;
+        }
+    </style>
+    
+    
+    
+    
+</head>
+<body id="root">
+    
+    <div>
+        <span>span1</span>
+     <span>span2</span>
+
+    </div> 
+    
+        
+    
+
+</body>
+
+</html>
+
+
+
